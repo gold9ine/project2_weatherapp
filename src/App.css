@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+body {
+  background: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-card {
+  background-color: rgba(52, 52, 52, 0.7);
+  padding: 50px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 100%;
+  height: 300px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 60px;
+  max-width: 700px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 30px;
+}
+.menu-container Button {
+  margin-right: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-container Button:hover {
+  background-color: #ffc107;
 }
